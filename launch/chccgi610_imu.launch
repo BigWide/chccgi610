@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="chccgi610" type="chccgi610imu" name="chccgi610imu" output="screen" >
+    <param name="port_name" type="string" value="/dev/ttyUSB0" />
+    </node>
+          
+</launch>
